@@ -65,7 +65,7 @@ The header animation shows a block oscillating on a spring. A pen on the block d
 - **Energy readouts:** The pendulum's energy bars are for a mass of 1 kg. The physical pendulum uses the small-angle formula. The damped energy $\tfrac12 kx_m^2e^{-bt/m}$ is an approximation that holds when the damping is light. If $b^2 \ge 4mk$, the page notes that the block no longer oscillates.
 - **Sign convention in the Doppler section:** Positive velocities point to the right, from the source S toward the detector D, so the formula is written as $f'=f\frac{v-v_D}{v-v_S}$.
 - **Sound:** Sound plays only after you press a button. Resonance plays the real frequency, limited to 20–4000 Hz. Beats plays $f_1+400$ Hz and $f_2+400$ Hz, which moves the tones into an audible range without changing the beat frequency.
-- **Display:** The pages follow the system's light or dark setting. Under `prefers-reduced-motion`, the animations start paused and can be played by hand. Only simulations that are currently on screen are animated.
+- **Display:** The pages follow the system's light or dark setting, and a sun/moon button in the top-right corner switches by hand, and the choice is remembered across pages. Under `prefers-reduced-motion`, the animations start paused and can be played by hand. Only simulations that are currently on screen are animated.
 
 ## Credits
 
