@@ -247,7 +247,7 @@ button.theme-btn svg{width:20px; height:20px; fill:none; stroke:currentColor; st
 <section id="s13"><h2><span class="n">13</span><span data-i18n="h13"></span></h2>
   <div class="prose"><p data-i18n="p13"></p></div>
   <div class="key"><span><span class="frac"><span>∂<sup>2</sup><i>y</i></span><span>∂<i>x</i><sup>2</sup></span></span> = <span class="frac"><span>1</span><span><i>v</i><sup>2</sup></span></span><span class="frac"><span>∂<sup>2</sup><i>y</i></span><span>∂<i>t</i><sup>2</sup></span></span></span><span><i>y</i> = <i>f</i>(<i>kx</i> − <i>ωt</i>), &nbsp;<i>v</i> = <i>ω</i>/<i>k</i></span></div>
-  <div class="sim"><div class="viz"><svg id="v13" viewBox="0 0 440 245" role="img" aria-label="줄 요소의 가속도를 표시한 파형"></svg></div><div class="controls" id="c13"></div></div>
+  <div class="sim"><div class="viz"><svg id="viz13" viewBox="0 0 440 245" role="img" aria-label="줄 요소의 가속도를 표시한 파형"></svg></div><div class="controls" id="c13"></div></div>
 </section>
 
 <section id="s14"><h2><span class="n">14</span><span data-i18n="h14"></span></h2>
@@ -259,7 +259,7 @@ button.theme-btn svg{width:20px; height:20px; fill:none; stroke:currentColor; st
 <section id="s15"><h2><span class="n">15</span><span data-i18n="h15"></span></h2>
   <div class="prose"><p data-i18n="p15a"></p><p data-i18n="p15b"></p></div>
   <div class="key"><span><i>λ<sub>n</sub></i> = <span class="frac"><span>2<i>L</i></span><span><i>n</i></span></span> (줄, 열린 관)</span><span><i>λ<sub>n</sub></i> = <span class="frac"><span>4<i>L</i></span><span>2<i>n</i> − 1</span></span> (한쪽이 닫힌 관)</span><span><i>f</i> = <span class="frac"><span><i>v</i></span><span><i>λ</i></span></span>, &nbsp;<i>v</i> = <span class="sqrt"><span><span class="frac"><span><i>τ</i></span><span><i>μ</i></span></span></span></span></span></div>
-  <div class="sim"><div class="viz"><svg id="v15" viewBox="0 0 440 240" role="img" aria-label="줄과 관의 정지파"></svg></div><div class="controls" id="c15"></div></div>
+  <div class="sim"><div class="viz"><svg id="viz15" viewBox="0 0 440 240" role="img" aria-label="줄과 관의 정지파"></svg></div><div class="controls" id="c15"></div></div>
 </section>
 
 <section id="s16"><h2><span class="n">16</span><span data-i18n="h16"></span></h2>
@@ -331,7 +331,7 @@ ko:{
  h8:"감쇠 단순조화운동",
  p8a:"고정대에 매단 용수철(용수철 상수 <i>k</i>)에 질량 <i>m</i>인 물체가 달려 있고, 그 아래의 저항판(vane)이 액체 속에서 움직입니다. 액체는 진동을 감쇠시키는 <b>감쇠력</b> <b>F</b><sub>d</sub>를 작용하며, 방향은 운동의 반대입니다: <b>F</b><sub>d</sub> = −<i>b</i><b>v</b> (<i>b</i>: 감쇠상수). 그러면 <i>F</i> = <i>ma</i> = −<i>kx</i> − <i>bv</i>(복원력 + 감쇠력), 즉 <i>m</i> d<sup>2</sup><i>x</i>/d<i>t</i><sup>2</sup> + <i>b</i> d<i>x</i>/d<i>t</i> + <i>kx</i> = 0입니다.",
  p8b:"이 미분방정식의 일반해는 (증명: 미분해서 대입) <i>x</i>(<i>t</i>) = <i>x</i><sub>m</sub><i>e</i><sup>−<i>bt</i>/(2<i>m</i>)</sup> cos(<i>ω′t</i> + <i>φ</i>), <i>ω′</i> = √(<i>k</i>/<i>m</i> − <i>b</i><sup>2</sup>/(4<i>m</i><sup>2</sup>))입니다. 진폭 <i>x</i><sub>m</sub><i>e</i><sup>−<i>bt</i>/(2<i>m</i>)</sup>이 점점 감소하는 감쇠 진동입니다. 역학적 에너지: 감쇠가 없을 때는 <i>E</i> = (1/2)<i>kx</i><span class='ss'><sup>2</sup><sub>m</sub></span>으로 일정하고, 감쇠가 있을 때는 <i>E</i> ≈ (1/2)<i>kx</i><span class='ss'><sup>2</sup><sub>m</sub></span><i>e</i><sup>−<i>bt</i>/<i>m</i></sup>입니다. (<i>b</i><sup>2</sup> ≥ 4<i>mk</i>이면 <i>ω′</i>가 실수가 아니게 되어, 물체는 진동하지 않고 천천히 돌아옵니다.)",
- b8:"감쇠상수 <i>b</i>",rWp8:"<i>ω′</i> = <span class='sqrt'><span><i>k</i>/<i>m</i> − <i>b</i><sup>2</sup>/(4<i>m</i><sup>2</sup>)</span></span>",rTau8:"진폭이 1/<i>e</i>로 줄어드는 시간 2<i>m</i>/<i>b</i>",rE8:"지금 에너지 (시뮬레이션)",rEa8:"(1/2)<i>kx</i><span class='ss'><sup>2</sup><sub>m</sub></span><i>e</i><sup>−<i>bt</i>/<i>m</i></sup>",over8:"진동 없음 (<i>b</i><sup>2</sup> ≥ 4<i>mk</i>)",
+ b8:"감쇠상수 <i>b</i>",rWp8:"<i>ω′</i> = <span class='sqrt'><span><i>k</i>/<i>m</i> − <i>b</i><sup>2</sup>/(4<i>m</i><sup>2</sup>)</span></span>",rTau8:"진폭이 1/<i>e</i>로 줄어드는 시간 2<i>m</i>/<i>b</i>",rE8:"지금 에너지 (시뮬레이션)",rEa8:"≈ (1/2)<i>kx</i><span class='ss'><sup>2</sup><sub>m</sub></span><i>e</i><sup>−<i>bt</i>/<i>m</i></sup> (약한 감쇠)",over8:"진동 없음 (<i>b</i><sup>2</sup> ≥ 4<i>mk</i>)",
 
  h9:"파동과 그 종류",
  p9a:"파동에는 크게 세 종류가 있습니다. <b>역학파</b>(mechanical wave)는 Newton 법칙을 따르며 물질 매질(material medium)이 있어야만 존재합니다: 물결파, 음파, 지진파. <b>전자기파</b>(electromagnetic wave)는 매질이 필요 없습니다: 가시광선, 자외선, 전파 등은 모두 진공에서 같은 속력 <i>c</i>로 진행합니다. <b>물질파</b>(matter wave)는 전자, 양성자 등 기본 입자(그리고 원자와 분자)에 연관된 파동입니다.",
@@ -388,7 +388,7 @@ const lang="ko";const L=I18N[lang];const t=k=>(L[k]??k);
 const $=s=>document.querySelector(s);const NS="http://www.w3.org/2000/svg";
 function E(tag,attrs={},parent){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e}
 function H(tag,attrs={},parent,html){const e=document.createElement(tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(html!=null)e.innerHTML=html;if(parent)parent.appendChild(e);return e}
-const reduceMotion=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const RMQ=matchMedia("(prefers-reduced-motion: reduce)");let reduceMotion=RMQ.matches;const PLAYERS=[];
 const MU0=4*Math.PI*1e-7,EC=1.602e-19;
 const minus=s=>String(s).replace(/-/g,"−");
 function trimP(x,sig){let s=x.toPrecision(sig);if(s.includes("e"))s=String(+s);return s}
@@ -425,11 +425,12 @@ function graph(g,{l=60,r=420,t0=24,b=130,xmin,xmax,ymin,ymax,xt,yt,xl,yl}){const
 const deg=x=>x*Math.PI/180;
 const anims=[];
 let NOW=0;const G0=9.8;
+function offCtl(el,off){if(typeof el==="string")el=document.getElementById(el);const c=el&&el.closest(".ctl");if(!c)return;c.classList.toggle("off",off);c.querySelectorAll("input,select,button").forEach(i=>{i.disabled=off})}
 function setSlider(el,v){el.value=v;el.dispatchEvent(new Event("input"))}
 function bars(el,rows,max){el.innerHTML=rows.map(([k,v,cl,unit])=>`<div class="bar-row"><span class="bar-cap">${t(k)}</span><div class="bar-track"><div class="bar-fill" style="width:${Math.max(0,Math.min(100,Math.abs(v)/(max||1)*100))}%;background:${cl}"></div></div><span class="v">${unit(v)}</span></div>`).join("")}
 function block(g,x,y,w,h,col,label){E("rect",{x,y,width:w,height:h,rx:4,fill:col,opacity:.85,stroke:"var(--ink)","stroke-width":1.2},g);if(label)txt(g,x+w/2,y+h/2+5,label,{"text-anchor":"middle","font-weight":700,fill:"#fff"})}
 function farrow(g,x,y,dx,dy,col,label,lx=6,ly=-6){if(Math.hypot(dx,dy)<2)return;arrow(g,x,y,x+dx,y+dy,col,3,10);if(label)txt(g,x+dx+lx,y+dy+ly,label,{"font-size":13,"font-weight":700,fill:col,stroke:"var(--panel)","stroke-width":4,"stroke-linejoin":"round","paint-order":"stroke"})}
-function playBtn(c,obj,key="playing"){const b=H("button",{type:"button",class:"btn"},c);const upd=()=>b.innerHTML=t(obj[key]?"pause":"play");b.addEventListener("click",()=>{obj[key]=!obj[key];upd()});obj._btn=upd;return b}
+function playBtn(c,obj,key="playing"){const b=H("button",{type:"button",class:"btn"},c);const upd=()=>b.innerHTML=t(obj[key]?"pause":"play");b.addEventListener("click",()=>{obj[key]=!obj[key];obj._user=true;upd()});obj._btn=upd;PLAYERS.push([obj,key]);return b}
 const N=x=>fx(x,2)+" N";
 
 (function(){const toc=$("#toc");L.nav.forEach((n,k)=>{const a=H("a",{href:"#s"+(k+1)},toc);a.innerHTML=`<span>${k+1}</span>${n}`})})();
@@ -458,8 +459,9 @@ function dbl(g,x1,y1,x2,y2,col){const mx=(x1+x2)/2,my=(y1+y2)/2;arrow(g,mx,my,x1
 /* sound: sine tones started only by a button press */
 function Tone(){let ctx=null,g=null,os=[];return{on:false,
   start(fs){try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();if(ctx.resume)ctx.resume();g=ctx.createGain();const t0=ctx.currentTime;g.gain.setValueAtTime(0,t0);g.gain.linearRampToValueAtTime(0.14/fs.length,t0+0.06);g.connect(ctx.destination);
-    os=fs.map(f=>{const o=ctx.createOscillator();o.type="sine";o.frequency.value=Math.max(20,Math.min(4000,f));o.connect(g);o.start();return o});this.on=true}catch(e){this.on=false}},
-  set(fs){if(!this.on)return;os.forEach((o,i)=>o.frequency.setTargetAtTime(Math.max(20,Math.min(4000,fs[i])),ctx.currentTime,0.02))},
+    os=fs.map(f=>{const o=ctx.createOscillator();o.type="sine";o.frequency.value=Math.max(20,Math.min(this.fmax(),f));o.connect(g);o.start();return o});this.on=true}catch(e){this.on=false}},
+  set(fs){if(!this.on)return;os.forEach((o,i)=>o.frequency.setTargetAtTime(Math.max(20,Math.min(this.fmax(),fs[i])),ctx.currentTime,0.02))},
+  fmax(){return Math.min(20000,ctx?ctx.sampleRate/2:20000)},
   stop(){if(!this.on)return;g.gain.setTargetAtTime(0,ctx.currentTime,0.03);const o2=os,g2=g;setTimeout(()=>{o2.forEach(o=>{try{o.stop()}catch(e){}});g2.disconnect()},250);os=[];this.on=false}}}
 function soundBtn(c,tone,getF){const b=H("button",{type:"button",class:"btn"},c);const upd=()=>b.innerHTML=tr(tone.on?"sndOff":"snd");b.addEventListener("click",()=>{tone.on?tone.stop():tone.start(getF());upd()});upd();return b}
 const PL=()=>!reduceMotion;
@@ -579,7 +581,7 @@ function draw6(dt){const L=S.L6,g0=S.g6,th0=deg(S.a6);if(S6.playing&&dt>0){const
 /* ---------- 7. physical pendulum ---------- */
 const S7={t:0,th:0,playing:PL()};
 function I7(L,h,b){return b==="rod"?L*L/12+h*h:h*h}
-function u7(){const el=$("#h7"),mx=S.b7==="rod"?S.L7/2:0.75;el.max=mx.toFixed(2);if(+el.value>mx)setSlider(el,mx)}
+function u7(){const el=$("#h7"),mx=Math.floor((S.b7==="rod"?S.L7/2:0.75)*100+1e-9)/100,h=Math.min(S.h7,mx);el.max=mx.toFixed(2);setSlider(el,h.toFixed(2))}
 (function(){const c=$("#c7");seg(c,{id:"b7",key:"b7",options:[["rod","rod7"],["pt","pt7"]],value:"rod",on:u7});slider(c,{id:"L7",key:"L7",min:0.4,max:1.5,step:0.05,value:1,fmt:v=>v.toFixed(2)+" m",on:u7});
   slider(c,{id:"h7",key:"h7",min:0.03,max:0.5,step:0.01,value:0.25,fmt:v=>v.toFixed(2)+" m",on:noop});slider(c,{id:"a7",key:"a6",min:5,max:30,step:1,value:15,fmt:v=>v+"°",on:noop});transport(c,S7,()=>{S7.th=0});
   S.ro7=readout(c,[["I","rI7"],["w","rOm7"],["T","rT7"],["L0","rL07"]])})();
@@ -591,9 +593,10 @@ function draw7(dt){const L=S.L7,b=S.b7,hmax=b==="rod"?L/2:0.75,h=Math.min(S.h7,h
   E("circle",{cx:Ox,cy:Oy,r:4.5,fill:"var(--panel)",stroke:"var(--ink)","stroke-width":2},g);lbl(g,Ox-8,Oy-10,"O","var(--ink)",{"font-weight":700});
   E("circle",{cx:Cx,cy:Cy,r:3.5,fill:"var(--ink)"},g);lbl(g,Cx+12,Cy+4,"C","var(--ink)",{"font-weight":700});lbl(g,(Ox+Cx)/2+10*dy,(Oy+Cy)/2-10*dx+4,"h","var(--ink)",{"font-style":"italic"});
   farrow(g,Cx,Cy,0,50,"var(--blue)","F_g",6,2);if(Math.abs(th)>0.02){const s=-Math.sign(th),Lf=50*Math.abs(Math.sin(th));farrow(g,Cx,Cy,s*Lf*dy,-s*Lf*dx,"var(--green)","F_g sin θ",s>0?6:-70,4)}
-  const n=120,hs=[],Ts=[];for(let i=0;i<=n;i++){const hh=hmax*(0.04+0.96*i/n);hs.push(hh);Ts.push(2*Math.PI*Math.sqrt(I7(L,hh,b)/(G0*hh)))}let ym=Math.min(6,Math.max(...Ts));ym=Math.ceil(ym*2)/2;
+  const key7=L+b;if(S7.key!==key7){const n=120,hs=[],Ts=[];for(let i=0;i<=n;i++){const hh=hmax*(0.04+0.96*i/n);hs.push(hh);Ts.push(2*Math.PI*Math.sqrt(I7(L,hh,b)/(G0*hh)))}let ym=Math.min(6,Math.max(...Ts));ym=Math.ceil(ym*2)/2;S7.key=key7;S7.c={hs,Ts,ym,d:null}}
+  const{hs,Ts,ym}=S7.c;
   const G=graph(g,{l:268,r:400,t0:30,b:250,xmin:0,xmax:hmax,ymin:0,ymax:ym,xt:[[0,"0"],[hmax/2,fx(hmax/2,2)],[hmax,fx(hmax,2)+" m"]],yt:[[0,"0"],[ym/2,fx(ym/2,2)],[ym,fx(ym,1)+" s"]],yl:tr("gT7"),xl:"h"});
-  let d="";hs.forEach((hh,i)=>{if(Ts[i]<=ym)d+=(d?"L":"M")+G.X(hh).toFixed(1)+","+G.Y(Ts[i]).toFixed(1)});E("path",{d,fill:"none",stroke:"var(--blue)","stroke-width":2.5},g);
+  if(!S7.c.d){let d="";hs.forEach((hh,i)=>{if(Ts[i]<=ym)d+=(d?"L":"M")+G.X(hh).toFixed(1)+","+G.Y(Ts[i]).toFixed(1)});S7.c.d=d}E("path",{d:S7.c.d,fill:"none",stroke:"var(--blue)","stroke-width":2.5},g);
   if(b==="rod"){const hm=L/Math.sqrt(12);E("line",{x1:G.X(hm),x2:G.X(hm),y1:30,y2:250,stroke:"var(--magenta)","stroke-dasharray":"4 3"},g);lbl(g,G.X(hm)+4,46,tr("min7"),"var(--magenta)",{"font-size":11})}
   E("circle",{cx:G.X(h),cy:G.Y(Math.min(T,ym)),r:5.5,fill:"var(--red)",stroke:"var(--panel)","stroke-width":2},g);
   const ro=S.ro7;ro.I.textContent=fx(Im,4)+" m²";ro.w.textContent=rads(w);ro.T.textContent=secs(T);ro.L0.textContent=mtr(Im/h)}
@@ -610,9 +613,10 @@ function draw8(dt){const m=S.m8,k=S.k8,b=S.b8;if(S8.playing&&dt>0){const s=stepN
   E("path",{d:"M28,160 L28,264 Q28,278 42,278 L118,278 Q132,278 132,264 L132,160",fill:"none",stroke:"var(--ink)","stroke-width":2},g);E("path",{d:"M30,172 L130,172 L130,264 Q130,276 118,276 L42,276 Q30,276 30,264 Z",fill:"var(--cyan)",opacity:.28},g);
   E("line",{x1:cx,x2:cx,y1:Y+20,y2:Y+88,stroke:"var(--green)","stroke-width":5},g);E("rect",{x:cx-28,y:Y+86,width:56,height:7,fill:"var(--green)"},g);lbl(g,cx+34,Y+94,"b","var(--ink)",{"font-style":"italic"});
   block(g,cx-22,Y-20,44,40,"var(--red)","m");
-  const G=graph(g,{l:190,r:425,t0:30,b:285,xmin:0,xmax:12,ymin:-0.12,ymax:0.12,xt:[[0,"0"],[3,"3"],[6,"6"],[9,"9"],[12,"12 s"]],yt:[[-X8,"−x_m"],[0,"0"],[X8,"x_m"]],yl:"x(t)"});
-  plot(g,G,tt=>X8*Math.exp(-b*tt/(2*m)),0,12,"var(--magenta)",2,120,{"stroke-dasharray":"6 4"});plot(g,G,tt=>-X8*Math.exp(-b*tt/(2*m)),0,12,"var(--magenta)",2,120,{"stroke-dasharray":"6 4"});
-  lbl(g,425,G.Y(X8*Math.exp(-b*12/(2*m)))-8,"x_m·exp(−bt/(2m))","var(--magenta)",{"text-anchor":"end","font-size":11});
+  const G=graph(g,{l:190,r:425,t0:30,b:285,xmin:0,xmax:12,ymin:-0.12,ymax:0.12,xt:[[0,"0"],[3,"3"],[6,"6"],[9,"9"],[12,"12 s"]],yt:[[-X8,"−x_0"],[0,"0"],[X8,"x_0"]],yl:"x(t)"});
+  const ga=b/(2*m),wd2=k/m-ga*ga;if(wd2>0){const xm=X8*Math.sqrt(k/m/wd2),cl=y=>Math.max(-0.12,Math.min(0.12,y));/* x = x_m e^(-γt) cos(ω′t + φ), x_m = x0 ω0/ω′, tan φ = −γ/ω′ */
+  plot(g,G,tt=>cl(xm*Math.exp(-ga*tt)),0,12,"var(--magenta)",2,120,{"stroke-dasharray":"6 4"});plot(g,G,tt=>cl(-xm*Math.exp(-ga*tt)),0,12,"var(--magenta)",2,120,{"stroke-dasharray":"6 4"});
+  lbl(g,425,G.Y(cl(xm*Math.exp(-ga*12)))-8,"x_m·exp(−bt/(2m))","var(--magenta)",{"text-anchor":"end","font-size":11})}
   let d="";const H8=S8.hist,st=Math.max(1,Math.floor(H8.length/700));for(let i=0;i<H8.length;i+=st)d+=(d?"L":"M")+G.X(H8[i][0]).toFixed(1)+","+G.Y(H8[i][1]).toFixed(1);d+="L"+G.X(S8.t).toFixed(1)+","+G.Y(x).toFixed(1);E("path",{d,fill:"none",stroke:"var(--green)","stroke-width":2.2},g);
   E("circle",{cx:G.X(S8.t),cy:G.Y(x),r:4.5,fill:"var(--green)"},g);E("line",{x1:cx+22,x2:G.X(S8.t),y1:Y,y2:G.Y(x),stroke:"var(--muted)","stroke-dasharray":"2 4"},g);
   const w2=k/m-b*b/(4*m*m),ro=S.ro8;ro.w.textContent=rads(Math.sqrt(k/m));ro.wp.innerHTML=w2>0?rads(Math.sqrt(w2)):tr("over8");ro.tau.textContent=b>0?secs(2*m/b):"∞";
@@ -684,7 +688,7 @@ function f13(u,sh){const P=10;u=((u%P)+P)%P;if(sh==="sin")return 0.6*Math.sin(2*
 (function(){const c=$("#c13");seg(c,{id:"sh13",key:"sh13",options:[["sin","shS"],["pul","shP"],["two","shT"]],value:"pul",on:noop});slider(c,{id:"v13",key:"v13",min:0.5,max:3,step:0.1,value:1.5,fmt:v=>v.toFixed(1)+" m/s",on:noop});
   slider(c,{id:"x13",key:"x13",min:0.5,max:9.5,step:0.1,value:6.5,fmt:v=>v.toFixed(1)+" m",on:noop});transport(c,S13);S.ro13=readout(c,[["dx","rDx13"],["dt","rDt13"],["r","rRat13"],["v2","rV213"]])})();
 function draw13(dt){clock(S13,dt);const v=S.v13,sh=S.sh13,t=S13.t,y=(x,tt)=>f13(x-v*tt,sh),e=0.01;const d2x=(x,tt)=>(y(x+e,tt)-2*y(x,tt)+y(x-e,tt))/(e*e),d2t=(x,tt)=>(y(x,tt+e/v)-2*y(x,tt)+y(x,tt-e/v))/((e/v)**2);
-  const g=$("#v13");g.innerHTML="";const G=graph(g,{l:40,r:420,t0:34,b:220,xmin:0,xmax:10,ymin:-1.1,ymax:1.1,xt:[[0,"0"],[5,"5"],[10,"10 m"]],yt:[[-1,"−1"],[0,"0"],[1,"1 m"]]});
+  const g=$("#viz13");g.innerHTML="";const G=graph(g,{l:40,r:420,t0:34,b:220,xmin:0,xmax:10,ymin:-1.1,ymax:1.1,xt:[[0,"0"],[5,"5"],[10,"10 m"]],yt:[[-1,"−1"],[0,"0"],[1,"1 m"]]});
   txt(g,40,20,tr("acc13"),{"font-size":12,fill:"var(--green)","font-weight":700});
   for(let i=0;i<=40;i++){const x=i/4,a=d2t(x,t),L=Math.max(-70,Math.min(70,a*4));if(Math.abs(L)>1.5)arrow(g,G.X(x),G.Y(y(x,t)),G.X(x),G.Y(y(x,t))-L,"var(--green)",1.8,6)}
   plot(g,G,x=>y(x,t),0,10,"var(--blue)",3,400);const xp=S.x13;E("line",{x1:G.X(xp),x2:G.X(xp),y1:34,y2:220,stroke:"var(--red)","stroke-dasharray":"4 3"},g);E("circle",{cx:G.X(xp),cy:G.Y(y(xp,t)),r:5.5,fill:"var(--red)",stroke:"var(--panel)","stroke-width":2},g);
@@ -709,12 +713,12 @@ function draw14(dt){clock(S14,dt);const ym=S.ym14,lam=S.lam14,k=2*Math.PI/lam,w=
 /* ---------- 15. resonance ---------- */
 const S15={t:0,playing:PL(),tone:Tone()};
 function info15(){const sys=S.sys15,n=S.n15,L=S.L15,v=sys==="str"?S.v15:343,h=sys==="closed"?2*n-1:n,lam=sys==="closed"?4*L/h:2*L/n;return{sys,n,L,v,h,lam,f:v/lam,f1:sys==="closed"?v/(4*L):v/(2*L)}}
-function u15(){const I=info15();const vc=$("#c15").querySelectorAll(".ctl")[3];if(vc)vc.classList.toggle("off",I.sys!=="str");S15.tone.set([I.f])}
+function u15(){const I=info15();const vc=$("#c15").querySelectorAll(".ctl")[3];if(vc)offCtl(vc,I.sys!=="str");S15.tone.set([I.f])}
 (function(){const c=$("#c15");seg(c,{id:"sys15",key:"sys15",options:[["str","sysS"],["open","sysO"],["closed","sysC"]],value:"str",on:u15});
   slider(c,{id:"n15",key:"n15",min:1,max:6,step:1,value:2,fmt:v=>String(v),on:u15});slider(c,{id:"L15",key:"L",min:0.2,max:2,step:0.05,value:0.65,fmt:v=>v.toFixed(2)+" m",on:u15});
   slider(c,{id:"v15",key:"v15",min:50,max:400,step:10,value:280,fmt:v=>v+" m/s",on:u15});const br=transport(c,S15);soundBtn(br,S15.tone,()=>[info15().f]);
   S.ro15=readout(c,[["h","rH15"],["lam","rL15"],["f","rF15"],["f1","rF115"]]);u15()})();
-function draw15(dt){clock(S15,dt);const I=info15(),cs=Math.cos(2*Math.PI*0.35*I.h*S15.t);const g=$("#v15");g.innerHTML="";const X0=40,X1=400,Yc=116,X=x=>X0+(X1-X0)*x/I.L,A=40;
+function draw15(dt){clock(S15,dt);const I=info15(),cs=Math.cos(2*Math.PI*0.35*I.h*S15.t);const g=$("#viz15");g.innerHTML="";const X0=40,X1=400,Yc=116,X=x=>X0+(X1-X0)*x/I.L,A=40;
   const sh=I.sys==="str"?x=>Math.sin(I.n*Math.PI*x/I.L):I.sys==="open"?x=>Math.cos(I.n*Math.PI*x/I.L):x=>Math.cos(I.h*Math.PI*x/(2*I.L));
   const path=f=>{let d="";for(let i=0;i<=300;i++){const x=I.L*i/300;d+=(i?"L":"M")+X(x).toFixed(1)+","+(Yc-f(x)).toFixed(1)}return d};
   let N=[],An=[];
@@ -778,12 +782,14 @@ function draw18(dt){const M=S.M18,o=S18;if(o.playing&&dt>0){o.t+=dt;o.sx+=M*C18*
 
 /* ---------- loop: only sims on screen are redrawn ---------- */
 function applyText(){document.querySelectorAll("[data-i18n]").forEach(el=>{el.innerHTML=tr(el.dataset.i18n)})}
-const DRAWS=[["hero",drawHero],["v1",draw1],["v2",draw2],["v3",draw3],["v4",draw4],["v5",draw5],["v6",draw6],["v7",draw7],["v8",draw8],["v9",draw9],["v10",draw10],["v11",draw11],["v12",draw12],["v13",draw13],["v14",draw14],["v15",draw15],["v16",draw16],["v17",draw17],["v18",draw18]];
+const DRAWS=[["hero",drawHero],["v1",draw1],["v2",draw2],["v3",draw3],["v4",draw4],["v5",draw5],["v6",draw6],["v7",draw7],["v8",draw8],["v9",draw9],["v10",draw10],["v11",draw11],["v12",draw12],["viz13",draw13],["v14",draw14],["viz15",draw15],["v16",draw16],["v17",draw17],["v18",draw18]];
 const VIS=new Set();const io="IntersectionObserver" in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)VIS.add(e.target.id);else VIS.delete(e.target.id)}),{rootMargin:"150px"}):null;
 DRAWS.forEach(([id])=>{if(io)io.observe(document.getElementById(id));else VIS.add(id)});
 let last=performance.now();
 function frame(now){const dt=Math.min(0.05,(now-last)/1000);last=now;DRAWS.forEach(([id,f])=>{if(VIS.has(id))f(dt)});requestAnimationFrame(frame)}
 applyText();u7();DRAWS.forEach(([,f])=>f(0));requestAnimationFrame(frame);
+/* reduced-motion setting can change while the page is open */
+(RMQ.addEventListener?RMQ.addEventListener.bind(RMQ,"change"):RMQ.addListener.bind(RMQ))(e=>{reduceMotion=e.matches;PLAYERS.forEach(([o,k])=>{if(!o._user){o[k]=!reduceMotion;o._btn&&o._btn()}})});
 
 </script>
 <script>
